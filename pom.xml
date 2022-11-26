@@ -5,7 +5,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.7.5</version>
-        <relativePath /> <!-- lookup parent from repository -->
+        <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.owasp</groupId>
     <artifactId>wrongsecrets</artifactId>
@@ -43,7 +43,7 @@
         <maven.compiler.target>19</maven.compiler.target>
         <spring.cloud-version>2021.0.4</spring.cloud-version>
         <lombok.version>1.18.24</lombok.version>
-        <aws.sdk.version>2.18.7</aws.sdk.version>
+        <aws.sdk.version>2.18.10</aws.sdk.version>
         <asciidoctorj.version>2.5.7</asciidoctorj.version>
         <jruby.version>9.3.9.0</jruby.version>
         <bootstrap.version>5.2.2</bootstrap.version>
@@ -256,7 +256,7 @@
                 </os>
             </activation>
             <properties>
-                <script.extension />
+                <script.extension/>
             </properties>
         </profile>
     </profiles>
